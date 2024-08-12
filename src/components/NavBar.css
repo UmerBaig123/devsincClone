@@ -1,0 +1,53 @@
+.nav-bar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  height: 92px;
+  z-index: 2;
+  color: black;
+}
+.options {
+  display: flex;
+}
+.opt {
+  font-weight: 600;
+  font-size: 19px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  padding: 0 20px;
+}
+.opt:hover {
+  color: #43b8a8;
+}
+.call {
+  background-color: #43b8a8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  height: 100%;
+  width: 23.5%;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.call:hover {
+  background-color: #031f3f;
+}
+
+.arrow {
+  transform: rotate(45deg);
+  transition: all 0.4s ease;
+}
+
+.call:hover .arrow {
+  transform: rotate(0deg);
+  fill: #43b8a8;
+}
