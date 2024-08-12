@@ -38,3 +38,44 @@
 .read-the-docs {
   color: #888;
 }
+.intro {
+  background-color: #e0e0e0;
+  color: black;
+  margin-top: 90px;
+  width: 100vw;
+  padding: 75px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  width: 65%;
+  color: rgb(2, 37, 37);
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 81px;
+}
+.sub-heading {
+  margin: 15px;
+  width: 65%;
+  color: rgb(132, 132, 155);
+  font-size: 22px;
+  font-weight: 600;
+}
+.btn {
+  border: 2px solid white;
+  border-radius: 40px;
+  background: transparent;
+  color: rgb(37, 45, 59);
+  font-size: 18px;
+  padding: 19px;
+}
+.schedule {
+  background-color: #43b8a8;
+  color: white;
+  font-size: 15px;
+}
+.schedule:hover {
+  background-color: #031f3f;
+  border-color: #43b8a8;
+}
